@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--first view controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TVMadlibs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="first view controller" id="BYZ-38-t0r" customClass="ViewController" customModule="TVMadlibs" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -24,9 +24,111 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wu6-TO-1qx"/>
                     </view>
+                    <connections>
+                        <segue destination="4Zh-cC-ndw" kind="show" id="hMa-XA-ODx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-139" y="-894"/>
+        </scene>
+        <!--third view controller-->
+        <scene sceneID="sB8-FV-cfR">
+            <objects>
+                <viewController title="third view controller" id="aXT-yQ-uob" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JkS-wN-7fC"/>
+                        <viewControllerLayoutGuide type="bottom" id="eDk-43-A4W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wey-dj-M9t">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="VOc-fY-3cE"/>
+                    </view>
+                    <connections>
+                        <segue destination="Vgv-dD-sp6" kind="show" id="sU0-ma-y6w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PFY-La-DCs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1225" y="3483"/>
+        </scene>
+        <!--fifth view controller-->
+        <scene sceneID="1Ue-9L-xyq">
+            <objects>
+                <viewController title="fifth view controller" id="Vgv-dD-sp6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="r1n-tS-Kvr"/>
+                        <viewControllerLayoutGuide type="bottom" id="xNU-d3-6qR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="X0x-rT-4nF">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="KK6-gb-fsp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M4o-fU-kmq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4617" y="5409"/>
+        </scene>
+        <!--second view controller-->
+        <scene sceneID="saX-t0-mNH">
+            <objects>
+                <viewController title="second view controller" id="ILp-Sg-gtF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SJM-TF-GHU"/>
+                        <viewControllerLayoutGuide type="bottom" id="hsX-gh-8nP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Emo-4K-89g">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Kef-TE-5LE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Cb5-6Y-77N"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RdF-Em-Nds" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4754" y="-894"/>
+        </scene>
+        <!--navigation controller-->
+        <scene sceneID="CBd-ma-Fpv">
+            <objects>
+                <navigationController title="navigation controller" automaticallyAdjustsScrollViewInsets="NO" id="4Zh-cC-ndw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jkf-Ie-JRD">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="145"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ILp-Sg-gtF" kind="relationship" relationship="rootViewController" id="5FC-Fg-Vwy"/>
+                        <segue destination="1Pe-1u-cra" kind="show" id="tYw-K2-fBf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="blA-YJ-4rd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2450" y="-894"/>
+        </scene>
+        <!--fourth view controller-->
+        <scene sceneID="6ae-MJ-vad">
+            <objects>
+                <viewController title="fourth view controller" id="1Pe-1u-cra" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aQi-KF-34w"/>
+                        <viewControllerLayoutGuide type="bottom" id="tqN-88-oty"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2a2-2P-VTZ">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="YMH-la-706"/>
+                    </view>
+                    <connections>
+                        <segue destination="aXT-yQ-uob" kind="show" id="2VE-xr-COw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Djr-ae-4dY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4489" y="1560"/>
         </scene>
     </scenes>
 </document>

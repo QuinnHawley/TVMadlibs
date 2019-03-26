@@ -30,6 +30,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-139" y="-894"/>
         </scene>
         <!--third view controller-->
         <scene sceneID="sB8-FV-cfR">
@@ -50,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PFY-La-DCs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="51" y="1329"/>
+            <point key="canvasLocation" x="1225" y="3483"/>
         </scene>
         <!--fifth view controller-->
         <scene sceneID="1Ue-9L-xyq">
@@ -68,12 +69,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M4o-fU-kmq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1080" y="2872"/>
+            <point key="canvasLocation" x="4617" y="5409"/>
         </scene>
-        <!--View Controller-->
+        <!--second view controller-->
         <scene sceneID="saX-t0-mNH">
             <objects>
-                <viewController id="ILp-Sg-gtF" sceneMemberID="viewController">
+                <viewController title="second view controller" id="ILp-Sg-gtF" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SJM-TF-GHU"/>
                         <viewControllerLayoutGuide type="bottom" id="hsX-gh-8nP"/>
@@ -87,12 +88,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RdF-Em-Nds" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4339" y="93"/>
+            <point key="canvasLocation" x="4754" y="-894"/>
         </scene>
-        <!--second view controller-->
+        <!--navigation controller-->
         <scene sceneID="CBd-ma-Fpv">
             <objects>
-                <navigationController title="second view controller" automaticallyAdjustsScrollViewInsets="NO" id="4Zh-cC-ndw" sceneMemberID="viewController">
+                <navigationController title="navigation controller" automaticallyAdjustsScrollViewInsets="NO" id="4Zh-cC-ndw" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jkf-Ie-JRD">
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="145"/>
@@ -106,7 +107,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="blA-YJ-4rd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2173" y="64"/>
+            <point key="canvasLocation" x="2450" y="-894"/>
         </scene>
         <!--fourth view controller-->
         <scene sceneID="6ae-MJ-vad">
@@ -127,7 +128,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Djr-ae-4dY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2146" y="1329"/>
+            <point key="canvasLocation" x="4489" y="1560"/>
         </scene>
     </scenes>
 </document>

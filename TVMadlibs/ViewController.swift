@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     
     // jadon is really cool
+    // Quinn is funny 
 
     override func viewDidLoad() {
        

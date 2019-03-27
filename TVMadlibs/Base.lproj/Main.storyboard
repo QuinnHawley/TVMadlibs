@@ -48,10 +48,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyU-Yg-b8R">
-                                <rect key="frame" x="772" y="682" width="376" height="125"/>
+                                <rect key="frame" x="509" y="682" width="903" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="75"/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="Take The Quiz!"/>
+                                <state key="normal" title="Press to take the Quiz!"/>
                                 <connections>
                                     <segue destination="ILp-Sg-gtF" kind="show" id="Q6z-r3-0f7"/>
                                 </connections>

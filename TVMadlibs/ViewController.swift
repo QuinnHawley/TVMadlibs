@@ -24,9 +24,7 @@ class ViewController: UIViewController {
         
         view.backgroundColor = UIColor.black
         
-    
-        view.backgroundColor = UIColor.white
-     
+        
     }
 
 // Make variables for the characters so it's connected

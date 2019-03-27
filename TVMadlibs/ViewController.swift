@@ -22,14 +22,24 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        view.backgroundColor = UIColor.black
+        
+    
         view.backgroundColor = UIColor.white
      
     }
 
+// Make variables for the characters so it's connected
+    
+    
+    var seigeIQ = #imageLiteral(resourceName: "iq")
+    var seigeTachanka = #imageLiteral(resourceName: "tachanka")
+    var siegeEcho = #imageLiteral(resourceName: "echo")
+    var siegeHibana = #imageLiteral(resourceName: "Hibanna")
+ 
 
-    
-    
-    
+
+
 
 }
 
